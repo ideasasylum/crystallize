@@ -1,0 +1,13 @@
+name: crystallize
+version: 0.1.0
+
+authors:
+  - Jamie Lawrence <jamie@ideasasylum.com>
+
+targets:
+  crystallize:
+    main: src/crystallize.cr
+
+crystal: 0.21.1
+
+license: MIT
