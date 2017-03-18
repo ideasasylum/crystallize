@@ -8,22 +8,22 @@ It'll be pretty opinionated, with the first goal to be able to render [my blog](
 
 Tasks and ideas, in no particular order
 
-[ ] Serve files
-[ ] Parse YAML frontmatter
-[ ] Copy files without processing
-[ ] Call external tools for processing, e.g. compress images, concat javascript
-[ ] Render markdown files to disk
-[ ] Render ERC files to disk
-[ ] Blog post rendering (i.e., 2017-01-01-my-post.md => /2017/01/01/mypost.html)
-[ ] Templates and partials
-[ ] Tags
-[ ] Basic view helpers (link_to, stylesheet etc)
-[ ] Render XML files for sitemaps/rss feeds
-[ ] Livereload
-[ ] Incremental builds
-[ ] Upload to s3
-[ ] Syntax highlighting of markdown
-[ ] Byte-for-byte translation of my blog (crystallize output == middleman output)
+- [ ] Serve files
+- [ ] Parse YAML frontmatter
+- [ ] Copy files without processing
+- [ ] Call external tools for processing, e.g. compress images, concat javascript
+- [ ] Render markdown files to disk
+- [ ] Render ERC files to disk
+- [ ] Blog post rendering (i.e., 2017-01-01-my-post.md => /2017/01/01/mypost.html)
+- [ ] Templates and partials
+- [ ] Tags
+- [ ] Basic view helpers (link_to, stylesheet etc)
+- [ ] Render XML files for sitemaps/rss feeds
+- [ ] Livereload
+- [ ] Incremental builds
+- [ ] Upload to s3
+- [ ] Syntax highlighting of markdown
+- [ ] Byte-for-byte translation of my blog (crystallize output == middleman output)
 
 
 ## Contributing
