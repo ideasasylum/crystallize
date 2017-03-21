@@ -1,11 +1,10 @@
 require "file_utils"
 require "markdown"
 
-class Crystallize::MarkdownProcessor < Crystallize::FileProcessor
+class Crystallize::Processors::Markdown < Crystallize::Processors::Base
 
-  def initialize(file_path : String)
+  def initialize(@entry : Crystallize::Sitemap::Entry)
     super
-    @file_path = file_path
   end
 
   def process
