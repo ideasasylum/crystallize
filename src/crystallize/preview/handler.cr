@@ -5,13 +5,10 @@ require "http"
 require "markdown"
 
 # A simple handler that lists directories and serves files under a given public directory.
-class Crystallize::Handler
+class Crystallize::Preview::Handler
   include HTTP::Handler
 
-  @public_dir : String
-
-  def initialize()
-    @public_dir = File.expand_path "./source"
+  def initialize(@config : Crystallize::Config)
   end
 
   def call(context)
@@ -38,7 +35,7 @@ class Crystallize::Handler
     end
     is_dir_path = expanded_path.ends_with? "/"
 
-    file_path = File.join(@public_dir, expanded_path)
+    file_path = File.join(@config.source_dir, expanded_path)
     is_dir = Dir.exists? file_path
 
     if Dir.exists?(file_path)
